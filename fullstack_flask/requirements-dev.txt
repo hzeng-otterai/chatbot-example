@@ -1,4 +1,2 @@
 -r src/requirements.txt
-black
-ruff
-pre-commit
+pytest
