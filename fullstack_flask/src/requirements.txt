@@ -1,0 +1,9 @@
+Flask==2.3.3
+gunicorn==21.2.0
+openai==0.27.9
+python-dotenv==1.0.0 # Pinned due to docker-in-docker issue: https://github.com/devcontainers/features/issues/616
+duckduckgo_search
+flask_sqlalchemy
+langchain
+tiktoken
+chromadb
