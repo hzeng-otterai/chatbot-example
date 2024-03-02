@@ -34,8 +34,14 @@ def build_matrix_and_word_list():
     
     return embedding_matrix, words
 
+def normalize_vectors(vectors):
+    norms = np.linalg.norm(vectors, axis=1, keepdims=True)
+    return vectors / norms
+
 embeddings_dict = load_glove_embeddings_from_zip(zip_path, embedding_file_name)
 embedding_matrix, words = build_matrix_and_word_list()
+normalized_embedding_matrix = normalize_vectors(embedding_matrix)
+
 print(f"GloVe embeddings loaded. Totally {len(embeddings_dict)} words. Type a word to find similar words, or type 'exit' to quit.")
 
 def find_similar_words_enumerate(input_word, top_n=10):
@@ -52,16 +58,18 @@ def find_similar_words_enumerate(input_word, top_n=10):
 
     return sorted(distances.items(), key=lambda item: item[1], reverse=True)[:top_n]
 
-def find_similar_words_np_dot(input_word, top_n=10):
+def find_similar_words_with_dot(input_word, top_n=10):
     if input_word not in embeddings_dict:
         print("Word not found in GloVe embeddings.")
         return []
-    input_vec = embeddings_dict[input_word].reshape(1, -1)
+
+    input_vec = embeddings_dict[input_word]
+    input_vec_normalized = input_vec / np.linalg.norm(input_vec)
     
-    # Compute cosine similarity between the input word vector and all vectors in the matrix
-    cosine_similarities = 1 - cdist(input_vec, embedding_matrix, 'cosine').flatten()
+    # Compute cosine similarity with dot product
+    cosine_similarities = np.dot(normalized_embedding_matrix, input_vec_normalized)
     
-    # Get the top n most similar words
+    # Find the top N similar words
     top_indices = np.argsort(cosine_similarities)[-top_n:][::-1]
     return [(words[i], cosine_similarities[i]) for i in top_indices]
 
@@ -75,10 +83,10 @@ if __name__ == "__main__":
 
         start_time = time.time()
         #similar_words = find_similar_words_enumerate(input_word)
-        similar_words = find_similar_words_np_dot(input_word)
+        similar_words = find_similar_words_with_dot(input_word)
         end_time = time.time()
         if similar_words:
-            print(f"Top 10 similar words {end_time-start_time:.1f} seconds used:")
+            print(f"Top 10 similar words {end_time-start_time:.2f} seconds used:")
             for word, similarity in similar_words:
                 print(f"{word}: {similarity}")
         else:
