@@ -1,4 +1,4 @@
-import openai
+from openai import AsyncOpenAI
 import time
 import asyncio
 
@@ -16,25 +16,27 @@ Summary of answer
 """
 
 with open("news_result.txt") as in_file:
-	context_content = in_file.read()
+    context_content = in_file.read()
 
 system_prompt = system_prompt_template.format(context=context_content)
 
 async def chat_func():
-	result = await openai.ChatCompletion.acreate(
-		model="gpt-4",
-		max_tokens=256,
-		temperature=0.5,
-		messages=[
-			{"role": "system", "content": system_prompt},
-			{"role": "user", "content": "what are those news about?"}
-		],
-		stream=True
-	)
+    client = AsyncOpenAI()
 
-	#print(result.choices[0].message.content)
-	async for token in result:
-		print(token.choices[0].delta.get("content", ""), flush=True, end="")
+    result = await client.chat.completions.create(
+        messages=[
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": "What are those news about?"}
+        ],
+        model="gpt-4",
+        max_tokens=256,
+        temperature=0.5,
+        stream=True,
+    )
+
+    #print(result.choices[0].message.content)
+    async for token in result:
+        print(token.choices[0].delta.content, flush=True, end="")
 
 
 asyncio.run(chat_func())
