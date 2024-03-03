@@ -19,5 +19,7 @@ async def chat_func():
 
     print(result.choices[0].message.content)
 
+# cannot do
+# chat_func()
 
 asyncio.run(chat_func())

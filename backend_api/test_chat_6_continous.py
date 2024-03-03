@@ -51,6 +51,8 @@ async def continous_chat():
 
         history.append({"role": "user", "content": user_input})
 
+        # notice every time we call the chat function
+        # we pass all the history to the API
         bot_response = await chat_func(history)
 
         history.append({"role": "assistant", "content": bot_response})

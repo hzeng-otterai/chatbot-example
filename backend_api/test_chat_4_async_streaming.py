@@ -18,8 +18,8 @@ async def chat_func():
         stream=True,
     )
 
-    async for r in result:
-        print(r.choices[0].delta.content, flush=True, end="")
+    async for chunk in result:
+        print(chunk.choices[0].delta.content, flush=True, end="")
 
 
 asyncio.run(chat_func())
