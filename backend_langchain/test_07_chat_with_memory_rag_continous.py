@@ -1,9 +1,8 @@
 from langchain.chains import ConversationChain, ConversationalRetrievalChain
-from langchain.embeddings import OpenAIEmbeddings
-from langchain.vectorstores import Chroma
-from langchain.chat_models import ChatOpenAI
+from langchain_community.vectorstores import Chroma
+from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain.memory import ConversationBufferMemory, ConversationSummaryMemory
-from langchain.document_loaders import DirectoryLoader
+from langchain_community.document_loaders import DirectoryLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 print("Loading documents")
@@ -23,11 +22,12 @@ retriever = vectorstore.as_retriever()
 print("Creating chains")
 llm = ChatOpenAI()
 memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
-conversation = ConversationalRetrievalChain.from_llm(llm, retriever=retriever, memory=memory, verbose=True)
+conversation = ConversationalRetrievalChain.from_llm(
+    llm, retriever=retriever, memory=memory, verbose=True)
 
 while(True):
     user_input = input("> ")
 
-    result = conversation(user_input)
+    result = conversation.invoke(user_input)
 
     print(result["answer"])
