@@ -7,3 +7,6 @@ unstructured
 chromadb
 faiss-cpu
 llama-index==0.10.18
+pinecone-client==3.0.0
+pinecone-datasets==0.7.0
+langchain-pinecone==0.0.3
