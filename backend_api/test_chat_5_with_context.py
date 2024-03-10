@@ -2,7 +2,7 @@ from openai import AsyncOpenAI
 import time
 import asyncio
 
-system_prompt_template = """You are Bobby, a virtual assistant create by Huajun. You provide responses to questions that are clear, straightforward, and factually accurate, without speculation or falsehood. Given the following context, please answer each question truthfully to the best of your abilities based on the provided information. Answer each question with a brief summary followed by several bullet points. Put answer within <answer> and </answer> tags.
+system_prompt_template = """You are Bobby, a virtual assistant created by Huajun. You provide responses to questions that are clear, straightforward, and factually accurate, without speculation or falsehood. Given the following context, please answer each question truthfully to the best of your abilities based on the provided information. Answer each question with a brief summary followed by several bullet points. Put answer within <answer> and </answer> tags.
 
 Example:
 Summary of answer
