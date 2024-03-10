@@ -7,6 +7,8 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
 from langchain import hub
 
+print("Loading and indexing documents.")
+
 # Several research papers
 file_names = ["attention.txt", "few_shot.txt", "instruct_gpt.txt"]
 
@@ -27,6 +29,8 @@ retriever = vectorstore.as_retriever(search_type="similarity", search_kwargs={"k
 # Get a prompt from LangChain hub
 prompt = hub.pull("rlm/rag-prompt")
 
+print("Indexing done.")
+
 # Define the LLM object using OpenAI
 llm = ChatOpenAI(model_name="gpt-3.5-turbo", temperature=0)
 
@@ -42,6 +46,5 @@ rag_chain = (
     | StrOutputParser()
 )
 
-result = rag_chain.invoke("What algorithms did GPT-4 use?")
-print(result)
-
+for chunk in rag_chain.stream("What algorithms did GPT-4 use?"):
+    print(chunk, flush=True, end="")
