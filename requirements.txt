@@ -6,3 +6,4 @@ langchain-hub==0.1.15
 unstructured
 chromadb
 faiss-cpu
+llama-index==0.10.18

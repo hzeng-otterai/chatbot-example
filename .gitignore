@@ -166,3 +166,5 @@ cython_debug/
 **/*.db
 
 *.zip
+
+storage/

@@ -1,4 +1,4 @@
-from langchain.chains import ConversationChain, ConversationalRetrievalChain
+from langchain.chains import ConversationalRetrievalChain
 from langchain_community.vectorstores import Chroma
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain.memory import ConversationBufferMemory, ConversationSummaryMemory
@@ -6,6 +6,7 @@ from langchain_community.document_loaders import DirectoryLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 print("Loading documents")
+# Loading documents from local disk
 loader = DirectoryLoader('./', glob="*.txt")
 documents = loader.load()
 
@@ -27,7 +28,5 @@ conversation = ConversationalRetrievalChain.from_llm(
 
 while(True):
     user_input = input("> ")
-
     result = conversation.invoke(user_input)
-
     print(result["answer"])
