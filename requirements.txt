@@ -5,3 +5,4 @@ langchain-anthropic==0.1.4
 langchain-hub==0.1.15
 unstructured
 chromadb
+faiss-cpu
