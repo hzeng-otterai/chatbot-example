@@ -1,19 +1,29 @@
-from langchain_community.chat_models import ChatOpenAI
+from langchain_openai import ChatOpenAI
 from langchain.schema import HumanMessage
-from langchain.prompts.chat import ChatPromptTemplate
-
-chat_model = ChatOpenAI()
+from langchain.prompts import ChatPromptTemplate, FewShotChatMessagePromptTemplate
 
 system_template = "You are a helpful assistant that translates {input_language} to {output_language}."
 human_template = "{text}"
 
-chat_prompt_template = ChatPromptTemplate.from_messages([
+final_prompt = ChatPromptTemplate.from_messages([
     ("system", system_template),
     ("human", human_template),
 ])
 
-messages = chat_prompt_template.format_messages(input_language="English", output_language="French", text="I love programming.")
+#print(final_prompt.format(
+#    input_language="English", 
+#    output_language="French", 
+#    text="I love programming.",
+#))
 
-result = chat_model.invoke(messages)
+chat_model = ChatOpenAI()
+
+chain = final_prompt | chat_model
+
+result = chain.invoke(dict(
+    input_language="English", 
+    output_language="French", 
+    text="I love programming.",
+))
 
 print(result.content)
