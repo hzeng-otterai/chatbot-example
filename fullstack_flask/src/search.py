@@ -21,7 +21,7 @@ def search_text(keywords, num_results=10):
     with DDGS() as ddgs:
         ddgs_text_gen = ddgs.text(
             keywords, 
-            region='cn-zh', 
+            region='us-en', 
             safesearch='Off', 
             timelimit='y'
         )

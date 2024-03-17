@@ -2,8 +2,8 @@ import json
 from flask import Response, jsonify, render_template, request, stream_with_context
 
 from .app import app
-#from .chat_api import call_chat
-from .chat_langchain import call_chat
+from .chat_api import call_chat
+#from .chat_langchain import call_chat
 
 @app.route("/")
 def index():
