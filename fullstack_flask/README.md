@@ -13,7 +13,12 @@ to an HTML/JS frontend using [NDJSON](http://ndjson.org/) over a [ReadableStream
     ```shell
     pip install -r requirements-dev.txt
     ```
-3. For the first time to start the app, you need to create the database
+
+3. Create a .env file, and put your OPENAI_API_KEY and PINECONE_API_KEY in this.
+
+4. Change the port in gunicorn.conf.py according to your machine's setup.
+
+5. For the first time to start the app, you need to create the database
     Using the following code in python to initialize the DB:
     ```python
     from src.app import app, db
@@ -21,7 +26,7 @@ to an HTML/JS frontend using [NDJSON](http://ndjson.org/) over a [ReadableStream
         db.create_all()
     ```
 
-4. Start the flask app
+6. Start the flask app
     ```shell
     gunicorn src.app:app
     ```
@@ -31,5 +36,5 @@ to an HTML/JS frontend using [NDJSON](http://ndjson.org/) over a [ReadableStream
     nohup gunicorn app:app &
     ```
 
-5. Click 'http://0.0.0.0:50505' in the terminal, which should open a new tab in the browser. You may need to navigate to 'http://localhost:50505' if that URL doesn't work.
+7. Navigate to 'http://localhost:50505' to access this Web app if it's local environment. Change the port to the one you specified if needed.
 
