@@ -1,18 +1,15 @@
 import json
-from flask import Blueprint, Response, jsonify, render_template, request, stream_with_context
+from flask import Response, jsonify, render_template, request, stream_with_context
 
-from .models import User
+from .app import app
 #from .chat_api import call_chat
 from .chat_langchain import call_chat
 
-
-chat_bp = Blueprint("chat", __name__, template_folder="templates", static_folder="static")
-
-@chat_bp.get("/")
+@app.route("/")
 def index():
     return render_template("index.html")
 
-@chat_bp.post("/chat")
+@app.route("/chat", methods=['POST'])
 def chat_handler():
     request_message = request.json["message"]
 
@@ -24,7 +21,7 @@ def chat_handler():
 
     return Response(response_stream())
 
-@chat_bp.route("/user/<user_id>", methods=["GET"])
+@app.route("/user/<user_id>", methods=["GET"])
 def get_user(user_id):
     # Retrieve user data from the database and return a JSON response
     return {"name": "Example Name"}
