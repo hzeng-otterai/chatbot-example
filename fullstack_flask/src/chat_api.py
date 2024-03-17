@@ -1,5 +1,4 @@
-import json
-import os
+
 import time
 import datetime
 
@@ -7,9 +6,8 @@ from openai import OpenAI
 
 client = OpenAI()
 
-from .search import search_news, search_text
+from .search import search_text
 from .models import db, ChatMessage
-
 
 prompt_template = """You are a helpful assistant. Current time is {datetime}. I will give you a list of articles with title and text. Please answer questions.
 
@@ -19,11 +17,9 @@ Articles:
 Answer:
 """
 
-def call_chat_api(question):
+def call_chat(question):
     text_list = []
 
-    #news_result_list = search_news(question)
-    #time.sleep(1)
     web_result_list = search_text(question)
     time.sleep(1)
 

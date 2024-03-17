@@ -2,7 +2,8 @@ import json
 from flask import Blueprint, Response, jsonify, render_template, request, stream_with_context
 
 from .models import User
-from .chat import call_chat_api
+#from .chat_api import call_chat
+from .chat_langchain import call_chat
 
 
 chat_bp = Blueprint("chat", __name__, template_folder="templates", static_folder="static")
@@ -17,7 +18,7 @@ def chat_handler():
 
     @stream_with_context
     def response_stream():
-        for chunk in call_chat_api(request_message):
+        for chunk in call_chat(request_message):
             # returning a json format for easier encoding
             yield json.dumps(chunk, ensure_ascii=False) + "\n"
 
