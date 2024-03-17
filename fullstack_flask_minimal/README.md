@@ -1,6 +1,6 @@
 # Minimal Flask App
 
-This repository includes a minimal Python Flask app. Visit 'http://0.0.0.0:9876' in a browser. 
+This repository includes a minimal Python Flask app. Visit 'http://0.0.0.0:5000' in a browser. 
 
 Using the following code in python to initialize the DB:
 ```python
@@ -11,5 +11,5 @@ with app.app_context():
 
 Start the flask app:
 ```shell
-gunicorn src.app:app
+flask --app src.app run
 ```
