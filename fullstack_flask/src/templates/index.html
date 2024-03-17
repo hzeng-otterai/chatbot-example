@@ -93,11 +93,12 @@
 
             let answer = "";
             for await (const event of readNDJSONStream(response.body)) {
-                if (event["choices"][0]["delta"]["content"]) {
+                console.log(event)
+                if (event["token"]) {
                     if (answer == "") {
                         messageDiv.innerHTML = "";
                     }
-                    answer += event["choices"][0]["delta"]["content"];
+                    answer += event["token"];
                     messageDiv.innerHTML = converter.makeHtml(answer);
                     messageDiv.scrollIntoView();
                 }

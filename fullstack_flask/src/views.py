@@ -17,8 +17,9 @@ def chat_handler():
 
     @stream_with_context
     def response_stream():
-        for event in call_chat_api(request_message):
-            yield json.dumps(event, ensure_ascii=False) + "\n"
+        for chunk in call_chat_api(request_message):
+            # returning a json format for easier encoding
+            yield json.dumps(chunk, ensure_ascii=False) + "\n"
 
     return Response(response_stream())
 

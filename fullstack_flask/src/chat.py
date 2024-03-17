@@ -3,7 +3,9 @@ import os
 import time
 import datetime
 
-import openai
+from openai import OpenAI
+
+client = OpenAI()
 
 from .search import search_news, search_text
 from .models import db, ChatMessage
@@ -32,7 +34,7 @@ def call_chat_api(question):
     full_text = "\n\n".join(text_list)
     now = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-    response = openai.ChatCompletion.create(
+    response = client.chat.completions.create(
         model="gpt-3.5-turbo-16k",
         max_tokens=384,
         messages=[
@@ -45,12 +47,11 @@ def call_chat_api(question):
     answer_buffer = ""
 
     for event in response:
-        token = event["choices"][0]["delta"].get("content")
+        token = event.choices[0].delta.content
         if token:
             answer_buffer += token
-        yield event
-
-
+            yield {"token": token}
+    
     chat_message = ChatMessage(user_id=1, question=question, answer=answer_buffer)
     db.session.add(chat_message)
     db.session.commit()
