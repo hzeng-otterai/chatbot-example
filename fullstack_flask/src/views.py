@@ -19,7 +19,7 @@ def chat_handler():
             # returning a json format for easier encoding
             yield json.dumps(chunk, ensure_ascii=False) + "\n"
 
-    return Response(response_stream())
+    return Response(response_stream(), mimetype="text/event-stream")
 
 @app.route("/user/<user_id>", methods=["GET"])
 def get_user(user_id):
