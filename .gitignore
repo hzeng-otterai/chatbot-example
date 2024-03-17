@@ -160,7 +160,7 @@ cython_debug/
 #.idea/
 
 # Mac file
-.DS_Store
+**/.DS_Store
 
 # database files
 **/*.db

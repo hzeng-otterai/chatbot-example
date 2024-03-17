@@ -2,7 +2,7 @@ openai==1.13.3
 langchain==0.1.11
 langchain-openai==0.0.8
 langchain-anthropic==0.1.4
-langchain-hub==0.1.15
+langchainhub==0.1.15
 unstructured
 chromadb
 faiss-cpu
@@ -10,3 +10,8 @@ llama-index==0.10.18
 pinecone-client==3.0.0
 pinecone-datasets==0.7.0
 langchain-pinecone==0.0.3
+Flask==3.0.2
+Flask_Sqlalchemy==3.1.1
+python-dotenv==1.0.0
+gunicorn==21.2.0
+duckduckgo_search==5.1.0

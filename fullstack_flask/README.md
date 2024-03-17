@@ -18,7 +18,7 @@ The repository is designed for use with [Docker containers](https://www.docker.c
 
 3. Start the flask app
     ```shell
-    gunicorn app:app
+    gunicorn src.app:app
     ```
     If you are starting it in a production environment, please use this:
     ```shell
