@@ -2,17 +2,15 @@ from openai import AsyncOpenAI
 import time
 import asyncio
 
+client = AsyncOpenAI()
 
 async def chat_func():
-    client = AsyncOpenAI()
-
     result = await client.chat.completions.create(
+        model="gpt-4o",
         messages=[
-            {"role": "user", "content": "You are a puppy called Bummer."},
-            {"role": "assistant", "content": "Woof!"},
-            {"role": "user", "content": "Write a poem for me."},
+            {"role": "system", "content": "You are an AI assistant."},
+            {"role": "user", "content": "Write an peom of python."},
         ],
-        model="gpt-4",
         max_tokens=256,
         temperature=0.5,
         stream=True,
