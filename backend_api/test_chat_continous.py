@@ -2,8 +2,16 @@ from openai import AsyncOpenAI
 import asyncio
 from datetime import datetime
 
+client = AsyncOpenAI()
+
 # Construct the system prompt
 system_prompt_template = """You are Bobby, a virtual assistant create by Huajun. Today is {today}. You provide responses to questions that are clear, straightforward, and factually accurate, without speculation or falsehood. Given the following context, please answer each question truthfully to the best of your abilities based on the provided information. Answer each question with a brief summary followed by several bullet points. 
+
+Example:
+Summary of answer
+- bullet point 1
+- bullet point 2
+...
 
 <context>
 {context}
@@ -19,11 +27,10 @@ system_prompt = system_prompt_template.format(
 )
 
 async def chat_func(history):
-    client = AsyncOpenAI()
 
     result = await client.chat.completions.create(
+        model="gpt-4o",
         messages=[{"role": "system", "content": system_prompt}] + history,
-        model="gpt-4",
         max_tokens=256,
         temperature=0.5,
         stream=True,

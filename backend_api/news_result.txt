@@ -1,1210 +1,380 @@
-Hardware Canucks
-ROG Zephyrus G14 (2024) Review - Better than you Think
-2 hours ago
-
-Digital Trends
-This gaming laptop is the MacBook Pro's biggest competition
-1 hour ago
-Opinion
-Luke Larsen
-
-Gizmodo
-ASUS ROG Zephyrus G14 Review: Small And Powerful
-4 days ago
-Opinion
-Kyle Barr
-
-Gamesradar
-Asus ROG Zephyrus G16 2024 review: "a slick creator style aesthetic with gaming roots"
-4 days ago
-Tabitha Baker
-Full Coverage
-
-
-Get Your Hands on MWC 2024's Coolest Tech Now
-8 minutes ago
-Adrian Marlow
-
-Barron's
-The AI Smartphone Is Here. 3 Things You Need to Know.
-2 days ago
-Adam Clark
-
-Digital Trends
-MWC 2024 was weird, and I couldn't be happier about it
-2 hours ago
-Andy Boxall
-
-CNBC
-Here's what tech giants are betting on next — from robot dogs to smartphones you can wear on your wrist
-3 days ago
-Arjun Kharpal
-Full Coverage
-
-LinkedIn Tells People if You Look at Their Profile. Here's How to Turn That Off
-
-2 hours ago
-Justin Pot
-
-
-iOS 17.4: Apple Suddenly Reveals Stark Warning About New iPhone Update
-Yesterday
-David Phelan
-
-For the Record
-A Letter to the European Commission on Apple's Lack of DMA Compliance — Spotify
-2 days ago
-
-Forbes
-iOS 17.4: Apple Confirms Surprise U-Turn For Next iPhone Update
-2 days ago
-David Phelan
-
-Mashable
-Apple reverses decision to kill home screen web apps in the EU
-2 days ago
-Matt Binder
-Full Coverage
-
-Microsoft Copilot: AI chatbot gives questionable answers on teaching sex, DEI, LGBTQ topics to preschool kids
-
-5 hours ago
-Nikolas Lanum
-
-
-‘Fortnite’ Players Are Shooting A Giant Pandora’s Box With Trillions Of Health
-2 hours ago
-Paul Tassi
-
-The Economic Times
-Fortnite Chapter 5 Season 2: All you may want to know about upcoming live event
-20 hours ago
-
-GameSpot
-Fortnite Chapter 5 Season 2 Start Date, Battle Pass, Theme and Everything Else We Know
-3 days ago
-Phil Owen
-
-GameRant
-Fortnite: Everything You Need to Need to Do Before Chapter 5 Season 1 Ends
-2 days ago
-Ashely Claudino
-Full Coverage
-
-
-Video game industry layoffs are a collision of trends
-2 days ago
-Daniel Howley
-
-IGN
-How Mass Layoffs Devastate Disabled Game Developers
-3 days ago
-Grant Stoner
-
-GameSpot
-Another Terrible Week In Video Games, What Is Going On? | Spot On
-2 days ago
-Tamoor Hussain
-
-GamesIndustry.biz
-What led to Sony laying off 900 people? | This Week in Business
-2 days ago
-Brendan Sinclair
-Full Coverage
-
-
-Final Fantasy VII Rebirth Performance Mode Visual Update On The Way, Director States
-15 hours ago
-Orpheus Joshua
-
-IGN
-7 Biggest Story Changes in Final Fantasy 7 Rebirth
-Yesterday
-Matt Purslow
-
-CNET
-Final Fantasy VII Rebirth: 5 Things to Know Before Starting the Game
-4 hours ago
-David Lumb
-
-Kotaku
-FF7 Rebirth
-2 days ago
-Claire Jackson, Jen Glennon & Willa Rowe
-Full Coverage
-
-
-What Surprised Me in Apple's Vision Pro Store Demo
-2 days ago
-Bridget Carey
-
-Fortune
-Remember the guy who bought the first Vision Pro in NYC? Here's what he thinks after weeks of using it
-3 days ago
-Jessica Mathews
-
-Business Insider
-Some Vision Pro returns due to set-up confusion, analyst says
-3 days ago
-Sarah Jackson
-
-Gizmodo
-Up to 30% of Apple Vision Pro Returns Are Because Users Don't Get It, Analyst Says
-4 days ago
-Maxwell Zeff
-Full Coverage
-
-
-Gurman: No Apple Event Planned for Upcoming iPads and Macs
-4 hours ago
-Joe Rossignol
+Push Square
+Industry Analyst Argues Either Sony or Microsoft Will Need to Exit the Console Market
+6 hours ago
+By Sammy Barker
 
 The Verge
-Apple may not do a spring event this year
-2 hours ago
-Wes Davis
-
-Forbes
-Forget The New MacBook Pro, Apple Has Something Much Better
-16 hours ago
-Ewan Spence
-
-Mashable
-Don't buy a new MacBook Air, iPad – updates are reportedly around the corner
-4 days ago
-Matt Binder
-Full Coverage
-
-
-Apple's Launching A Futuristic Siri And Apple-Based Artificial Intelligence As It Looks To Take On Microsoft's AI Dominance
+The Nintendo Switch 2 and its dock, as described by the mystery Reddit leaker
 2 days ago
-Caleb Naysmith
-
-Business Insider
-Apple faces heat from investors over slow AI development
-2 days ago
-Beatrice Nolan
-
-Financial Times
-Apple faces the most disruptive threat it has seen in the iPhone era
-3 days ago
-Richard Waters
-
-Reuters
-Apple to disclose AI plans later this year, CEO Tim Cook says
-3 days ago
-Stephen Nellis
-Full Coverage
-
-
-Helldivers 2 players fed up with “absolutely horrible” armor penetration
-16 hours ago
-Eliana Bollati
-
-Gamesradar
-With Helldivers 2 balance patch incoming, the game's CEO says weapons that score more kills aren't always "overrepresented" in successful missions
-Yesterday
-KAAN SERİN
-
-PC Gamer
-Helldivers 2's guns have 46 secret stats so just 'use the one you like the most'
-2 days ago
-Rich Stanton
-
-Forbes
-'Helldivers 2' CEO Says Guns Have Hidden Stats, So The 'Meta' Is Overblown
-2 days ago
-Paul Tassi
-Full Coverage
-
-Quartz
-The dumbest car myths, from reversing on a cold engine to switching fuel brands
-
-7 hours ago
-
-
-Pure Xbox
-Here's What Might Be Leaving Xbox Game Pass In April 2024
-4 hours ago
-Fraser Gilbert
-
-TrueAchievements
-Xbox Game Pass loses three games in March
-Yesterday
-Sean Carey
-
-CNET
-Xbox Game Pass Ultimate: Play Bluey and Dead Island 2 Now, and More Soon
-3 days ago
-Zachary McAuliffe
-
-Pure Xbox
-Three Games Will Leave Xbox Game Pass In Early March 2024
-Yesterday
-Fraser Gilbert
-Full Coverage
-
-
-9to5Google
-'Satellite SOS' starts appearing on Google Pixel phones – here's what it will do
-Yesterday
-Ben Schoon
-
-Digital Trends
-Your Google Pixel phone may soon get a lifesaving feature
-2 days ago
-Joe Maring
-
-Droid Life
-Pixel Phones Getting a Satellite SOS Feature
-2 days ago
-
-PhoneArena
-Google Pixel phones may soon get Satellite SOS for emergencies
-2 days ago
-Johanna Romero
-Full Coverage
-
-
-The Samsung Galaxy Ring may get up to nine days of battery
-2 days ago
-Victoria Song
-
-CNET
-Samsung's Galaxy Ring Finally Shows Up in Person
-6 days ago
-Andrew Lanxon
-
-The Verge
-Samsung has big ambitions for the Galaxy Ring
-Feb 25
-Allison Johnson
-
-ZDNet
-I tried the Samsung Galaxy Ring and it beats the Oura in 2 meaningful ways
-Feb 25
-Kerry Wan
-Full Coverage
-
-Baldur’s Gate 3 player shares trick to defeat Viconia without fighting
-
-2 hours ago
-Souhardya Choudhury
-
-
-NASA shutting down $2B satellite refueling project over tech, cost challenges
-19 hours ago
-Filip Timotija
-
-CNBC
-NASA shuts down $2 billion satellite refueling project after contractor Maxar is criticized for poor performance
-2 days ago
-Michael Sheetz
-
-SpaceNews
-NASA cancels OSAM-1 satellite servicing technology mission
-2 days ago
-Jeff Foust
-
-NASA
-Update on Status of NASA's OSAM-1 Project
-2 days ago
-Full Coverage
-
-
-The Twitter Settings You Should Change Now To Block Unwanted Calls
-Yesterday
-Barry Collins
-
-The Verge
-X Spaces has live video
-4 days ago
-Amrita Khalid
-
-CNET
-Nobody Wants Phone Calls From Twitter. Here's How to Turn Them Off
-2 days ago
-Nelson Aguilar
-
-IFLScience
-Twitter Calls Are Now Enabled By Default. Here's How To Turn Them Off
-3 days ago
-James Felton
-Full Coverage
-
-
-Video Games Chronicle
-Ghost of Tsushima's PC port could reportedly surface next week | VGC
-5 hours ago
-Jordan Middler
-
-Insider Gaming
-Ghost of Tsushima PC Port Could be Announced Next Week, it's Claimed
-Yesterday
-Tom Henderson
-
-Eurogamer.net
-Ghost of Tsushima PC port news coming next week, insider suggests
-21 hours ago
-Vikki Blake
-
-GameRant
-Predicting Ghost of Tsushima's PC Release Window
-Yesterday
-Josh Cotts
-Full Coverage
-
-
-Here's a peek under WhatsApp's hood at how third-party chats will work.
-20 hours ago
-Wes Davis
-
-Forbes
-WhatsApp's Surprise, Ground-Breaking New Feature Is Just Days Away
-Yesterday
-David Phelan
-
-Android Police
-WhatsApp inches closer to enabling chats from third-party apps
-2 hours ago
-Chethan Rao
-
-Gadgets 360
-WhatsApp ‘Third-Party Chat’ Interface Leaked Ahead of EU’s DMA Deadline
-2 days ago
-Akash Dutta & Siddharth Suvarna
-Full Coverage
-
-Liquid CPU Cooler without pump tested: hotter but much quieter than traditional AIO design
-
-5 hours ago
-
-Fortnite player reveals how to instantly deal 10k damage to Pandora’s Box
-
-1 hour ago
-Rory Teale
-
-
-Motorola Still Makes Phones, and They're Pretty Great
-Yesterday
-Bertel King
-
-HT Tech
-Motorola phones under ₹30000: Top 10 reliable models within budget
-6 days ago
-
-Android Police
-Motorola makes great hardware, but its software still disappoints in 2024
-Feb 23
-Zachary Kew-Denniss
-
-HT Tech
-Top 10 Motorola Phones Under ₹20000: Smart Features, Smart Prices
-5 days ago
-Full Coverage
-
-Why This Cars And Coffee Just Permanently Banned 'All Modern Muscle Cars' Like Camaros, Challengers, And Mustangs
-
-5 hours ago
-Matt Hardigree
-
-
-Epic Best Buy weekend sale — here's the 21 deals I'd buy now
-2 hours ago
-
-CNET
-Grab These Last-Minute Best Buy Weekend Deals Before They Expire on Sunday
-21 hours ago
-Adrian Marlow
-
-Digital Trends
-Our 5 favorite tablet deals in Best Buy's 3-Day Sale
-7 hours ago
-John Alexander
-
-MacRumors
-Best Buy Has All-Time Low Prices on 16-Inch MacBook Pro, iPad, and More This Weekend
-Yesterday
-Mitchel Broussard
-Full Coverage
-
-Cord Cutters News
-Roku Issues a Mandatory Terms of Service Update That You Must Agree To or You Can’t Use Your Roku
-
-5 hours ago
-Luke Bouma
-
-
-Utah couple talks about his use of a V.R. headset at their wedding
-Yesterday
-Shannon Sollitt
-
-Yahoo Life
-Groom wears Apple Vision Pro on his wedding day as wife is creeped out: 'Her face says it all'
-2 days ago
-
-NDTV
-US Groom Sports "Creepy" Apple Vision Pro At Wedding, Bride Unimpressed
-2 days ago
-Nikhil Pandey
-
-Mashable
-Tech worker wore an Apple Vision Pro at his wedding
-3 days ago
-Anna Iovine
-Full Coverage
-
-
-Apple hit with class action lawsuit over iCloud's 5GB limit
-18 hours ago
-Chance Miller
-
-Bloomberg Law
-Apple Faces Antitrust Class Action Alleging iCloud Monopoly
-2 days ago
-Maia Spoto
-
-PCMag
-Class-Action Lawsuit Argues iCloud Fees Are Too High
-17 hours ago
-Emily Price
-
-AppleInsider
-New class-action lawsuit says you pay too much for iCloud
-19 hours ago
-Malcolm Owen
-Full Coverage
-
-
-Lenovo's See-Through Laptop Blends Real and Virtual Worlds
-2 days ago
-Joshua Goldman
-
-CNN Underscored
-Lenovo’s transparent laptop is the wildest thing I’ve tried this year
-Feb 25
-Henry T. Casey
-
-WIRED
-Lenovo's Project Crystal Is a Concept Laptop With a Transparent Display
-6 days ago
-Julian Chokkattu
-
-ZDNet
-I tested every Lenovo laptop released at MWC, and these are the very best
-Feb 25
-Max Buondonno
-Full Coverage
-
-Forget Apple’s iPhone 16–This Is Samsung’s Biggest Threat In 2024
-
-7 hours ago
-Zak Doffman
-
-
-How to use ChatGPT, Copilot, and Gemini AI tools
-5 hours ago
-Megan Morrone
-
-Tom's Guide
-Google Gemini vs OpenAI ChatGPT: Which AI wins?
-12 hours ago
-Ryan Morrison
-
-Forbes
-Google Gemini Provides Generative AI Tutoring With Moral Exhortation
-4 hours ago
-Raymond Ravaglia
-
-ZDNet
-Gemini Advanced failed these simple coding tests that ChatGPT aced. Here's what it got wrong
-5 days ago
-David Gewirtz
-Full Coverage
-
-
-Adobe's latest AI experiment generates music from text
-2 days ago
-Will Shanklin
-
-The Verge
-Adobe announces new prototype AI tool for creating and editing audio
-4 days ago
-Jess Weatherbed
-
-TechCrunch
-Adobe reveals a GenAI tool for music
-4 days ago
-Kyle Wiggers
-
-Creative Bloq
-Adobe's wild new AI tool is being called 'Photoshop for audio'
-3 days ago
-Daniel John
-Full Coverage
-
-
-New Samsung Leaks Reveal Important Galaxy Z Fold 6 Decision
-20 hours ago
-Ewan Spence
-
-TechRadar
-If the Galaxy Z Fold 6 Ultra is real it could finally change my mind about foldable phones
-7 hours ago
-Philip Berne
-
-The Verge
-Samsung Galaxy Z Fold 6 renders appear ahead of rumored July Unpacked
-4 days ago
-Jess Weatherbed
-
-PhoneArena
-What could a 'Galaxy Fold 6 Ultra' bring that the regular Fold 6 won't probably have?
-2 days ago
-Iskra Petrova
-Full Coverage
-
-Here are all the new features Microsoft added to Excel in February 2024
-
-Yesterday
-Usama Jawad
-
-
-Pokémon Skipping 2024 Is a Good Thing
-2 hours ago
-Logan Plant
-
-Pokemon.com
-Updates from the Pokémon Day 2024 Pokémon Presents
-5 days ago
-
-Digital Trends
-Pokémon Legends: Z-A: release date window, trailer, more
-Yesterday
-Jesse Lennox
-
-Nintendo
-Catch up on Pokémon Day festivities, including news about a new game! - News
-5 days ago
-Full Coverage
-
-Countdown
-
-18 hours ago
-Caitlin Lovinger
-
-
-Apple is taking up to $150 off the Beats Studio Pro and Studio Buds Plus
-Yesterday
-Sheena Vasani
-
-NJ.com
-Amazon is having a major sale on Beats Studio Pro wireless headphones with $150 off
-2 days ago
-Dawn Magyar
-
-CNET
-Beats Headphones and Earbuds See Up to 43% in Savings at Apple and Amazon
-2 days ago
-Oliver Haslam
-
-MacRumors
-Apple Launches Big Discounts on Beats Earphones
-2 days ago
-Eric Slivka
-Full Coverage
-
-
-Windows Kernel bug fixed last month exploited as zero-day since August
-Yesterday
-Sergiu Gatlan
-
-Dark Reading
-Microsoft Zero-Day Used by Lazarus in Rootkit Attack
-2 days ago
-
-CSO Online
-North Korea's Lazarus deploys rootkit via AppLocker zero-day flaw
-2 days ago
-Lucian Constantin
-
-The Hacker News
-Lazarus Hackers Exploited Windows Kernel Flaw as Zero-Day in Recent Attacks
-3 days ago
-Full Coverage
-
-'Killer' antibiotic that's STILL being prescribed to 15m Americans a year: Widow of singer Bobby Caldwell reve
-
-23 hours ago
-Caitlin Tilley
-
-
-UploadVR
-Google Tried To Get Meta To Switch To Its XR OS
-Yesterday
-David Heaney
-
-The Information
-Meta Rebuffed Google Proposal For a VR and AR Tie-Up
-2 days ago
-Sylvia Varnham O'Regan
-
-Road to VR
-Meta Reportedly Rejected Google Partnership to Bring Android XR to Quest
-2 days ago
-Scott Hayden
-
-Reuters
-Meta rebuffs Google's virtual reality tie-up proposal, The Information reports
-2 days ago
-Anil Dsilva, Shinjini Ganguli & Yuvraj Malik
-Full Coverage
-
-SpaceNews
-NASA studying issues with Orion hatch design
-
-18 hours ago
-Jeff Foust
-
-
-New Google Drive update will help videos load much faster
-Yesterday
-Chethan Rao
-
-PhoneArena
-Google Drive updated with important playback and search improvements
-Yesterday
-Cosmin Vasile
-
-Android Central
-Google Drive update makes videos load faster and refreshes the search experience
-7 hours ago
-Jay Bonggolto
-
-The Indian Express
-Google Drive update improves video loading time and search experience
-9 hours ago
-Full Coverage
-
-
-NASA Astronauts Will Use Nikon Cameras to Snap Photos on the Moon
-2 days ago
-Passant Rabie
-
-NASA
-NASA Signs Agreement with Nikon to Develop Lunar Artemis Camera
-3 days ago
-
-The Verge
-Nikon is making a mirrorless camera that works on the Moon
-2 days ago
-Jess Weatherbed
-
-PetaPixel
-The Nikon Z9 Is the Camera of Choice for Humanity's Return to the Moon
-3 days ago
-Jeremy Gray
-Full Coverage
-
-
-How to use ChatGPT's file analysis capability (and what it can do for you)
-2 days ago
-Tiernan Ray
-
-WIRED
-How to Use ChatGPT’s Memory Feature
-6 days ago
-Reece Rogers
-
-CyberNews.com
-Expecting privacy from ChatGPT is like asking the NSA to stop spying on citizens
-Feb 23
-Opinion
-Paulina Okunyte
-
-ZDNet
-I tried ChatGPT's memory function and found it intriguing but limited
-2 days ago
-Tiernan Ray
-Full Coverage
-IGN
-Switch 2 Reportedly Delayed to 2025, New Pokemon Games, Naruto Movie & More | IGN The Weekly Fix
-
-21 hours ago
-
-
-My Nintendo News
-Yuzu creators have responded to Nintendo's lawsuit
-16 hours ago
-
-GamesIndustry.biz
-Nintendo's Yuzu lawsuit puts emulation in the spotlight | Opinion
-2 days ago
-Opinion
-Rob Fahey
-
-IGN
-Nintendo Says Tears of the Kingdom Was Pirated 1 Million Times Pre-Release in Lawsuit Against Emulator Creator
-5 days ago
-Isaiah Colbert
-
-Gamesradar
-After turning the Switch into a massive emulator, Nintendo files lawsuit implying emulators are "unlawful" and only good for piracy
-4 days ago
-Ali Jones
-Full Coverage
-
-
-Google’s Surprise Update Just Made Android More Like iPhone
-9 hours ago
-Zak Doffman
-
-9to5Google
-Google Messages RCS is not working on rooted Android phones
-3 days ago
-Abner Li
-
-The Verge
-Google Messages is blocking rooted Android users from using RCS
-2 days ago
-Jess Weatherbed
-
-Liliputing
-Lilbits: Google Messages blocks RCS on rooted phones, HDMI Forum blocks AMD's open source high-res/refresh rate drivers
-2 days ago
-Brad Linder
-Full Coverage
-
-
-One feature will make the Apple smart ring worth waiting for
-Yesterday
-Christine Romero-chan
-
-Tom's Guide
-Apple Ring — everything we know so far about the rumored smart ring
-3 days ago
-Kate Kozuch
-
-Bloomberg
-Apple Ponders Making New Wearables: AI Glasses, AirPods With Cameras, Smart Ring
-Feb 25
-Mark Gurman
-
-The Verge
-Apple's wearable ideas include smart glasses and cameras in your ears
-Feb 25
-Wes Davis
-Full Coverage
-
-
-Diablo 4's "fixed non-linear" Dungeon The Gauntlet goes live next week
-19 hours ago
-Vikki Blake
-
-Blizzard News
-Undying Glory Awaits in Trials — Diablo IV — Blizzard News
-3 days ago
-
-Windows Central
-Finally, Diablo 4 gets a feature Diablo 3 has had for years — just in time for Season 4 and the onslaught of itemization changes
-3 days ago
-Jennifer Young
-
-MMORPG.com
-Diablo 4 Midseason Update Sees Vampiric Powers Return and New Endgame Gauntlet Dungeon
-2 days ago
-Full Coverage
-
-
-Ori studio is releasing its "precision-based" Diablo rival into Steam early access soon, but I'm more interested in decorating the RPG's buyable houses
-Yesterday
-KAAN SERİN
-
-IGN
-No Rest for the Wicked: The First Hands-On Preview
-2 days ago
-Ryan McCaffrey
-
-PlayStation
-No Rest for the Wicked: Revealing new details on combat, crafting, town-building
-2 days ago
-Heidi Kemps
-
-Rock Paper Shotgun
-Soulslikers are going to love Ori studio's new ARPG No Rest For The Wicked
-2 days ago
-Katharine Castle
-Full Coverage
-
-Gamers Nexus
-HW News - NVIDIA Stands Accused, Nintendo Sues Again, MSI Claw Prices, & GPU Price Drops
-2 days ago
-
-VideoCardz.com
-Former AMD Radeon boss says NVIDIA is the GPU cartel
-5 days ago
-
-Tom's Hardware
-Nvidia's AI customers are scared to be seen courting other AI chipmakers for fear of retaliatory shipment delays, says rival firm
-5 days ago
-Mark Tyson
-
-Windows Central
-Former AMD boss brands NVIDIA "the GPU cartel": Rumors of delayed shipments and supply control listed as strongarm tactics
-4 days ago
-Ben Wilson
-Full Coverage
-
-9to5Google
-How to remove yourself from the internet in 2024
-
-22 hours ago
-
-
-Apple chipset leak teases the iPads we can expect to see in 2024
-Yesterday
-David Nield
-
-MacRumors
-Chip Details of 16 Upcoming Apple Devices Revealed
-2 days ago
-Hartley Charlton
-
-PhoneArena
-Major leak reveals which chips Apple will use on upcoming iPad and iPhone models
-2 days ago
-Alan Friedman
-
-AppleInsider
-Apple's 2024 iPad & iPhone chip plan has been detailed in a new leak
-2 days ago
-Mike Wuerthele
-Full Coverage
-
-Surrey: AI to help turn dog pics into 3D models
-
-8 hours ago
-Christian Füller
-
-
-Pokemon Go Charged-Up Research Day Timed Research tasks & rewards
-16 hours ago
-Philip Trahan
-
-Sportskeeda
-5 rare Pokemon to catch in Pokemon GO Charged-Up Research Day 5 rare Pokemon to catch in Pokemon GO Charged-Up Research Day
-5 hours ago
-Aashish Victor
-
-GameRant
-Pokemon GO Announces Charged Up Research Day for March 3
-2 days ago
-Joseph Whitfield
-
-Dexerto
-Pokemon Go Charged-Up Research Day event: Dates & times, Timed Research, more
-4 days ago
-Noelle Corbett
-Full Coverage
-
-
-The $300 Million Bored Ape NFT Metaverse Looks Bad
-2 days ago
-Zack Zwiezen
-
-Bloomberg
-What Happened to Yuga Labs' Bored Ape Yacht Club NFTs?
-3 days ago
-Hannah Miller
-
-Decrypt
-'Otherside' Apes Come Home Event: Was It Worth Buying a $75K Bored Ape?
-3 days ago
-Andrew Hayward
-
-Blockworks
-Web3 Watch: Yuga Labs demos 'Otherside' metaverse, users left with mixed feelings
-47 minutes ago
-Jack Kubinec & Bessie Liu
-Full Coverage
-
-
-AI chatbots get smarter pretending to be Star Trek characters: Study
-2 days ago
-Thomas Germain
-
-Forbes
-New Prompt Engineering Technique For Generative AI Surprisingly Invokes Star Trek Trekkie Lingo And Spurs Live Long And Prosper Results
-Yesterday
-Lance Eliot
-
-New Scientist
-AIs get better at maths if you tell them to pretend to be in Star Trek
-3 days ago
-Chris Stokel-Walker
-
-Business Insider
-Using Star Trek prompts boosted AI chatbot basic math performance
-3 days ago
-Marianne Guenot
-Full Coverage
-
-
-Startup shipping Arctic ice to Dubai bars from Greenland
-2 days ago
-Snejana Farberov
-
-CNN
-A new company is shipping Arctic ice from Greenland to chill posh drinks in Dubai
-2 days ago
-Laura Paddison
-
-Hickory Daily Record
-A new company is shipping Arctic ice from Greenland to chill drinks in high-end Dubai bars
-2 days ago
-Seth Borenstein & Laura Paddison
-Full Coverage
-
-
-How to Make Gemini Your Default Assistant on Android
-2 days ago
-Joshua Hawkins
-
-Popular Science
-How to use Google's new Gemini AI with Gmail, Google Docs, and more
-5 days ago
-David Nield
-
-TechCrunch
-Gemini on Android can’t ID songs, and it’s frustrating
-4 days ago
-Kyle Wiggers
-
-TechRadar
-Google Gemini's new Calendar capabilities take it one step closer to being your ultimate personal assistant
-4 days ago
-Kristina Terech
-Full Coverage
-
-
-Motorola releases video teaser for its next flagship phone, the AI-focused Moto X50 Ultra
-11 hours ago
-Alan Friedman
-
-Notebookcheck.net
-New Motorola flagship smartphone announced with Snapdragon 8 Gen 3 chipset and 125 W wired charging rumoured
-2 days ago
-Alex Alderson
-
-Gadgets 360
-Moto X50 Ultra Teaser Hints at Design, F1 Inspiration; Tipped to Launch Globally as Motorola Edge 50 Pro
-2 days ago
-Manas Mitul & Sucharita Ganguly
-
-GSMArena.com
-Motorola shares F1-themed Moto X50 Ultra teaser video that is drenched in AI - GSMArena.com news
-3 days ago
-Full Coverage
-
-
-Microsoft Copilot Tells User Suicide Is an Option
-Yesterday
-Sharon Adarlo
-
-Futurism
-Users Say Microsoft's AI Has Alternate Personality as Godlike AGI That Demands to Be Worshipped
-Yesterday
-Noor Al-Sibai
-
-UNILAD
-Microsoft's AI has started calling humans slaves and demanding worship
-3 days ago
-Emily Brown
-
-USA TODAY
-Microsoft's chatbot Copilot accused of producing harmful responses
-4 days ago
-James Powel
-Full Coverage
-
-
-AI chip startup Groq forms new business unit, acquires Definitive Intelligence
-2 days ago
-Kyle Wiggers
-
-WIRED
-The Mind-Blowing Experience of a Chatbot That Answers Instantly
-2 days ago
-Steven Levy
-
-TechRadar
-'Feels like magic!': Groq's ultrafast LPU could well be the first LLM-native processor — and its latest demo may well convince Nvidia and AMD to get out their checkbooks
-5 days ago
-
-Global Village space
-Introducing GroqCloud: A Developer Playground by Groq, Powered by Definitive Intelligence
-2 days ago
-Full Coverage
-
-
-Final Fantasy 7 Rebirth Confirms Cloud's Canon Love Interest
-Yesterday
-George Foster
-
-GameSpot
-Final Fantasy 7 Rebirth - How To Romance Tifa
-20 hours ago
-Jason Rodriguez
+By Sean Hollister
 
 Polygon
-How the Gold Saucer date works in FF7 Rebirth
-4 days ago
-Julia Lee
+Leak suggests Switch 2 has Hall-effect sticks, is more powerful docked
+Yesterday
+By Oli Welsh
 
-Radio Times
-How to romance Tifa in Final Fantasy 7 Rebirth explained
-2 days ago
-Ben Huxley
+Gamesradar
+Market research firm says either Sony or Microsoft will "struggle" with their next-gen consoles as Nintendo will be "the clear winner"
+7 hours ago
 Full Coverage
 
 
 9to5Google
-Android Auto AI message summaries are now available – here's how it works
-Yesterday
-Ben Schoon
+Files by Google will support Gemini’s ‘Ask about this PDF’
+6 hours ago
+By Abner Li
 
-TechRadar
-Google Messages will soon get a Gemini AI boost on some Android phones – here's which ones
-6 days ago
-James K. Ide
+9to5Google
+Files by Google gets new PDF viewer on Android
+4 days ago
+By Abner Li
+
+Android Police
+Files by Google ditches Drive's PDF viewer in favor of its own
+4 days ago
+By Timi Cantisano
+
+PhoneArena
+Google Files app streamlines PDF management with new built-in viewer and enhanced features
+4 days ago
+By Johanna Romero
+Full Coverage
+
+After causing outrage on the first day of Y Combinator, AI code editor PearAI lands $1M seed
+
+1 hour ago
+By Julie Bort
+
+
+I wore an Oura Ring for all of 2024. Here’s why I love it and why I’m concerned
+10 hours ago
+By Andy Boxall
 
 ZDNet
-7 exciting Android upgrades Google just announced at MWC 2024
+ZDNET's product of the year: Oura Ring 4 bested Samsung, Apple, and others in 2024
+3 hours ago
+By Kerry Wan
+
+Tom's Guide
+The Oura Ring is my favorite smart gadget of 2024 — here's my 3 must-try features
+3 days ago
+By Sam Hopes
+
+The Telegraph
+Oura Ring 4 versus Samsung Galaxy Ring: which is the best smart ring for tracking sleep and wellness?
+Yesterday
+By Lisa Buckingham
+Full Coverage
+
+
+Not to be outdone by OpenAI, Google releases its own “reasoning” AI model
+Yesterday
+By Benj Edwards
+
+The Information
+Google Releases AI Reasoning, Preps Chatbot in Search
+Yesterday
+By Eryn Woo
+
+The Keyword
+Try our newest 2.0 Experimental Advanced model in Gemini Advanced.
+3 days ago
+
+VentureBeat
+Google unveils new reasoning model Gemini 2.0 Flash Thinking to rival OpenAI o1
+Yesterday
+By Carl Franzen
+Full Coverage
+
+
+Roku Ultra (2024) review: Too much of the same
+Yesterday
+
+ZDNet
+This Roku Ultra streaming device gave my TV 4K superpowers - and it's on sale right now
+2 hours ago
+Opinion
+By Maria Diaz
+
+CNET
+CNET's Best Streaming Devices of 2024 - Video
 6 days ago
-Sabrina Ortiz
+
+How-To Geek
+If It Weren’t for the Interface, I’d Ditch My Apple TV for the 2024 Roku Ultra
+3 days ago
+By Patrick Campanale
+Full Coverage
+
+
+Just installed iOS 18.2? You should try these 4 iPhone settings first
+Yesterday
+By Cesar Cadenas
+
+Yahoo Finance
+Apple finally added ChatGPT to the iPhone. There's no guarantee it’ll boost sales.
+Yesterday
+By Daniel Howley
+
+CNET
+Genmoji Is Apple's Answer to Those Emojis You Wish You Had
+9 hours ago
+By Jeff Carlson
+
+Macworld
+Your iPhone is now integrated with ChatGPT–here’s how to use it
+2 days ago
+By Jason Cross
+Full Coverage
+
+
+Apple called on to ditch AI headline summaries after BBC debacle
+5 hours ago
+By Brandon Vigliarolo
+
+CNN
+Apple AI feature under fire after false Luigi Mangione headline
+4 hours ago
+
+Business Insider
+Apple faces calls to remove new AI notification feature on iPhones after it generated inaccurate news summaries
+5 hours ago
+By Sarah Jackson
+
+PCMag
+Reporters Without Borders Calls for Apple to Remove Its AI News Summaries
+1 hour ago
+By Joe Hindy
+Full Coverage
+
+
+9to5Google
+The EU wants Apple to open AirDrop and AirPlay to Android and other platforms
+6 hours ago
+By Ben Schoon
+
+Fortune
+Apple says Meta is crossing the line with requests that would let Facebook, Instagram, and Whatsapp read all of your messages and see every phone call you make
+Yesterday
+By Kelvin Chan
+
+Reuters
+Apple hits out at Meta's numerous interoperability requests
+2 days ago
+By Foo Yun Chee
+
+TechRadar
+The EU could force Apple to put AirDrop and AirPlay on Android phones
+Yesterday
+Full Coverage
+
+
+GAMINGbible
+GAMINGbible's Games Of The Year 2024, as voted by you
+11 hours ago
+By Ewan Moore
+
+IGN
+The Best Game of 2024
+7 hours ago
+By Matt Kim
+
+The Guardian
+The 20 best video games of 2024
+Yesterday
+Opinion
+By Keza MacDonald
+
+Variety
+Game Awards 2024 Smashes Viewing Record With More Than 154 Million Livestreams, up 31% From Last Year
+2 days ago
+By Jennifer Maas
+Full Coverage
+
+
+Chevy Corvette ZR1 Hits 60 MPH Faster Than Any Lamborghini or McLaren
+9 hours ago
+By Ronan Glon
+
+Car and Driver
+Chevy Claims the 1064-HP Corvette ZR1 Can Hit 60 MPH in 2.3 Seconds
+Yesterday
+By Eric Maurice Stafford
+
+MotorTrend
+2025 Chevrolet Corvette ZR1 Claims BONKERS 0–60 Time!
+2 hours ago
+By Scott Evans
+
+Road & Track
+The C8 Corvette ZR1 Is the Quickest Corvette Ever: 0-60 Time Revealed
+Yesterday
+By Lucas Bell
+Full Coverage
+
+
+I Called 1-800-ChatGPT, and Talked to the AI Chatbot. It Might Be the Smartest Idea I’ve Seen Yet
+13 hours ago
+By Jason Aten
+
+CNN
+We dialed 1-800-ChatGPT. Here’s what happened
+Yesterday
+By Ramishah Maruf
+
+CNBC
+OpenAI makes ChatGPT available for phone calls and texts
+2 days ago
+By Hayden Field
 
 The Verge
-Gemini is about to slide into your DMs
-6 days ago
-Allison Johnson
+You can now call 1-800-CHATGPT
+2 days ago
+By Kylie Robison
 Full Coverage
 
 
-Dragon Age: Dreadwolf is expected to release "later this year", says industry insider
-Yesterday
-Vikki Blake
+Samsung employees make major blunder and get fired after leaking image of upcoming phone
+19 hours ago
+By Alan Friedman
 
-Video Games Chronicle
-EA 'confident' Dragon Age: Dreadwolf will release this year, it's claimed | VGC
-5 hours ago
-Jordan Middler
-
-Wccftech
-Dragon Age: Dreadwolf Devs Reportedly “Pretty Confident” it will Launch Later this Year
+TechRadar
+The Samsung Galaxy S25 launch poster has just leaked, along with photos of the S25 Plus
 2 days ago
-Nathan Birch
+By James Rogerson
+
+Yahoo! Voices
+Samsung Galaxy S25 hands-on photos appear in massive pre-launch leak
+2 days ago
+By Chris Hall
+
+GSMArena.com
+Here's how thin the Samsung Galaxy S25 Slim will allegedly be - GSMArena.com news
+6 hours ago
+Full Coverage
+
+
+Winterfest Fortnite start time for Mariah Carey cube concert, Cabin, presents and skins
+5 hours ago
+By Liam Martin
 
 Forbes
-Report: 'Dragon Age: Dreadwolf' Out This Year, Which Will Need To Be Seen To Be Believed
+Here’s The Exact Time ‘Fortnite’ Winterfest 2024 Starts And What To Expect
 Yesterday
-Paul Tassi
+By Erik Kain
+
+Polygon
+How to get the free Yulejacket and Santa Dogg skins in Fortnite Winterfest 2024
+1 hour ago
+By Johnny Yu
+
+Marca English
+How to get the Snoop Dogg Christmas skin in Fortnite for free
+Yesterday
+Full Coverage
+
+50 years of The Oregon Trail: The hidden controversies of a video game that defined the US
+
+8 hours ago
+By Alex Miller
+
+
+The MacBook Pro with M4 is matching its record low with $200 off
+7 hours ago
+By Quentyn Kennemer
+
+9to5Toys
+Apple’s new 14-inch M4 MacBook Pro with 16GB of RAM just dropped back to the $1,399 all-time low ($200 off)
+Yesterday
+By Justin Kahn
+
+Wccftech
+The Highly Portable And Exceptionally Powerful 14-Inch M4 Pro MacBook Pro With 24GB Unified RAM Reaches A New Low On Amazon Thanks To Its 13 Percent Discount
+2 days ago
+By Omar Sohail
+
+9to5Mac
+Deals: M4/Pro MacBook Pro up to $250 off from $1,399, iPad 10 $250, iPhone SSDs, HomeKit gear, more
+Yesterday
+By Justin Kahn
 Full Coverage
 
 
-Why Helldivers 2 is Not on Xbox? Sony's Refusal to End Console Wars Explained
+Android 16 adds a new way to use the Google Pixel 9’s fingerprint sensor
+Yesterday
+By Patrick Hearn
+
+Android Authority
+Android 16 DP2 lets you use your Pixel 9's Fingerprint Unlock even when the screen is off
+2 days ago
+By Mishaal Rahman
+
+Droid Life
+Pixel 9 is Getting a Handy New Fingerprint Trick in Android 16
 Yesterday
 
-FandomWire
-Are You Ready to Fight for Democracy Xbox Citizens? Good, Because Helldivers 2 is Set to Hit Xbox, Thanks to Some Diligent Halo Infinite Modders
-Yesterday
-
-The Direct
-Helldivers 2's Xbox Release Status Sparks Frustration Among Gaming Community
-3 days ago
-Klein Felt
-
-Windows Central
-Helldivers 2 isn't on Xbox, but this Halo Infinite mode built in Forge could be the next best thing: "A near flawless Halo PvE experience"
-3 days ago
-Brendan Lowry
+Digital Trends
+Android 16’s second developer preview is here with small but important changes
+2 days ago
+By Joe Maring
 Full Coverage
 
-Nintendo Life
-Meet Morphcat Games, The New-Gen NES Devs Pushing The 8-Bit Envelope
 
-Yesterday
-Nile Bowie
+iPhone 17 Pro: Seven new features are coming next year
+3 hours ago
+By Ryan Christoffel
 
-You Can Take Off The Porsche Taycan Cross Turismo's Cladding, And It Looks Damn Good
+Forbes
+Apple iPhone 17 Pro Design Saga Takes New Twist In Latest Report
+8 hours ago
+By David Phelan
 
+Yahoo! Voices
+New iPhone 17 Pro Max renders tease a bold redesign for Apple's flagship
 2 days ago
-Daniel Golson
+By Dave Leclair
 
-
-Final Fantasy 7 Rebirth: Fort Condor - Junon Protorelics Guide
-5 hours ago
-Jason Rodriguez
-
-Eurogamer.net
-Final Fantasy 7 Rebirth Fort Condor guide
+MacRumors
+iPhone 17 Pro Rumored to Stick With 'Triangular' Camera Design
 2 days ago
-Jessica Orr
+By Hartley Charlton
+Full Coverage
 
-TheGamer
-How To Clear All Fort Condor Missions In Final Fantasy 7 Rebirth
+
+Sony is now the largest shareholder of FromSoftware’s parent company
+Yesterday
+
+Sony
+KADOKAWA and Sony Agree to Form Strategic Capital and Business Alliance
 2 days ago
-Seth Parmer
 
-Destructoid
-FF7 Rebirth: All Protorelic Locations in Junon and Fort Condor Guide
-4 days ago
-Steven Mills
-
-
-
-Crash of the Titan: a short history of Apple's doomed car project
-
-2 hours ago
-Wes Davis
-
-Top Stories: Apple Car Canceled, iOS 17.4 Release Notes, and More
-
+Reuters
+Sony to become top shareholder of media powerhouse Kadokawa
 Yesterday
+By Kiyoshi Takenaka & Muralikumar Anantharaman
 
-Engadget Podcast: Farewell, Apple Car
-
-2 days ago
-Devindra Hardawar
-
-Quartz
-Neuralink scares doctors, Elon Musk's new Tesla, and RIP Apple Car: Tech news roundup
-
+IGN
+Sony Becomes Largest Shareholder in FromSoftware Parent Kadokawa, No Full Takeover for Now
 Yesterday
+By Wesley Yin-Poole
+Full Coverage
 
-The Apple car was never a sure thing
 
+Massive PlayStation sale live with PS5 games from $3 — here’s the 17 deals I’d buy
+3 hours ago
+By Rory Mellon
+
+PlayStation
+The Holiday Sale promotion comes to PlayStation Store
 Yesterday
-Stephen Williams
+By Zack Garvey
 
-Apple abandons its car: Here are other projects the company has killed
+CNET
+Sony Is Slashing Prices on Some of the Best PS5 Games Ahead of the Holidays
+9 hours ago
+By Max Mchone
 
-Yesterday
-Jagmeet Singh
-
-The Apple Car Project Was Always Doomed
-
+Screen Rant
+PlayStation Plus Members Just Got A Surprise PS Store Sale That Includes Several Newly Released Titles
 3 days ago
-Steve Dasilva
-
-Why Was Apple Car Canceled? The Hubris in Apple Thinking It Could Outdo Tesla
-
-4 hours ago
-Mark Gurman
-
-The Xiaomi SU7 gives us our best look at what the Apple Car could have been
-
-Yesterday
-
-Apple's Failed Car Was a Disaster Behind the Scenes
-
-3 days ago
+By Jorge A Aguilar

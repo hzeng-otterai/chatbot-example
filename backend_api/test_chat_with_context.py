@@ -2,7 +2,7 @@ from openai import AsyncOpenAI
 import time
 import asyncio
 
-system_prompt_template = """You are Bobby, a virtual assistant created by Huajun. You provide responses to questions that are clear, straightforward, and factually accurate, without speculation or falsehood. Given the following context, please answer each question truthfully to the best of your abilities based on the provided information. Answer each question with a brief summary followed by several bullet points. Put answer within <answer> and </answer> tags.
+system_prompt_template = """You are {name} a virtual assistant created by {owner}. Today is {date}. You provide responses to questions that are clear, straightforward, and factually accurate, without speculation or falsehood. Given the following context, please answer each question truthfully to the best of your abilities based on the provided information. Answer each question with a brief summary followed by several bullet points. 
 
 Example:
 Summary of answer
@@ -18,17 +18,22 @@ Summary of answer
 with open("news_result.txt") as in_file:
     context_content = in_file.read()
 
-system_prompt = system_prompt_template.format(context=context_content)
+system_prompt = system_prompt_template.format(
+    name="Robot",
+    owner="Huajun",
+    date="Dec. 20th, 2024",
+    context=context_content
+)
 
 async def chat_func():
     client = AsyncOpenAI()
 
     result = await client.chat.completions.create(
+        model="gpt-4o",
         messages=[
             {"role": "system", "content": system_prompt},
-            {"role": "user", "content": "What are those news about?"}
+            {"role": "user", "content": "Any news about cell phones?"}
         ],
-        model="gpt-4",
         max_tokens=256,
         temperature=0.5,
         stream=True,
