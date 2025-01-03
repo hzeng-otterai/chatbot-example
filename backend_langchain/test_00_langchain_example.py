@@ -7,9 +7,6 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
 from langchain import hub
 
-# Several research papers
-file_names = ["attention.txt", "few_shot.txt", "instruct_gpt.txt"]
-
 # Loader for multiple text files
 loader = DirectoryLoader('./', glob="*.txt")
 documents = loader.load()
@@ -42,6 +39,6 @@ rag_chain = (
     | StrOutputParser()
 )
 
-result = rag_chain.invoke("What are the differences between Few Shot learning and Zero Shot learning?")
+result = rag_chain.invoke("What is attention?")
 print(result)
 
