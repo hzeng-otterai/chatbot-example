@@ -1,0 +1,11 @@
+langchain
+langchain_community
+langchain_openai
+langchain_anthropic
+langchain_pinecone
+langchain_text_splitters
+openai
+pinecone[grpc]
+unstructured
+chromadb
+faiss-cpu

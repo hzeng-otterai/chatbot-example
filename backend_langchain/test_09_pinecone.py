@@ -6,7 +6,7 @@ from pinecone import Pinecone
 
 pc = Pinecone()
 
-index_name = 'langchain-retrieval-augmentation-fast'
+index_name = 'research-paper-rag-index'
 index = pc.Index(index_name)
 index.describe_index_stats()
 
@@ -25,7 +25,7 @@ qa = RetrievalQA.from_chain_type(
     retriever=vectorstore.as_retriever()
 )
 
-query = "who invented airplane?"
+query = "What is Attention?"
 
 result = qa.invoke(query)
 print(result["result"])

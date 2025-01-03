@@ -21,7 +21,9 @@ print("Result from Anthropic:", result2.content)
 print("Streaming result from OpenAI:")
 for chunk in llm1.stream(messages):
     print(chunk.content, end="", flush=True)
+print("\n")
 
 print("Streaming result from Anthropic:")
 for chunk in llm2.stream(messages):
     print(chunk.content, end="", flush=True)
+print("\n")
