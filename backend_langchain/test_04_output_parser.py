@@ -1,26 +1,47 @@
 from langchain_openai import ChatOpenAI
-from langchain.prompts import ChatPromptTemplate
-from langchain.schema import BaseOutputParser
 
-class CommaSeparatedListOutputParser(BaseOutputParser):
-    """Parse the output of an LLM call to a comma-separated list."""
+model = ChatOpenAI(model="gpt-4o-mini")
+
+from typing import List, Optional
+
+from langchain_core.output_parsers import PydanticOutputParser
+from langchain_core.prompts import ChatPromptTemplate
+from pydantic import BaseModel, Field, validator
 
 
-    def parse(self, text: str):
-        """Parse the output of an LLM call."""
-        return text.strip().split(", ")
+class Person(BaseModel):
+    """Information about a person."""
 
-template = """You are a helpful assistant who generates comma separated lists.
-A user will pass in a category, and you should generate 5 objects in that category in a comma separated list.
-ONLY return a comma separated list, and nothing more."""
-human_template = "{text}"
+    name: str = Field(..., description="The name of the person")
+    height_in_meters: float = Field(
+        ..., description="The height of the person expressed in meters."
+    )
 
-final_prompt = ChatPromptTemplate.from_messages([
-    ("system", template),
-    ("human", human_template),
-])
 
-chain = final_prompt | ChatOpenAI() | CommaSeparatedListOutputParser()
-result = chain.invoke({"text": "colors"})
+class People(BaseModel):
+    """Identifying information about all people in a text."""
+
+    people: List[Person]
+
+
+# Set up a parser
+parser = PydanticOutputParser(pydantic_object=People)
+
+# Prompt
+prompt = ChatPromptTemplate.from_messages(
+    [
+        (
+            "system",
+            "Answer the user query. Wrap the output in `json` tags\n{format_instructions}",
+        ),
+        ("human", "{query}"),
+    ]
+).partial(format_instructions=parser.get_format_instructions())
+
+query = "Anna is 23 years old and she is 6 feet tall"
+print(prompt.format_prompt(query=query).to_string())
+
+chain = prompt | model | parser
+result = chain.invoke({"query": query})
 
 print(result)
