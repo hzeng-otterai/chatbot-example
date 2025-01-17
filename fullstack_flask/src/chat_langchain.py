@@ -12,7 +12,7 @@ from .models import db, ChatMessage
 pc = Pinecone()
 
 print("Connecting to Pinecone index")
-index_name = 'langchain-retrieval-augmentation-fast'
+index_name = 'research-paper-rag-index'
 index = pc.Index(index_name)
 index.describe_index_stats()
 
