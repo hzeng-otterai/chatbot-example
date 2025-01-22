@@ -3,7 +3,9 @@ from flask import Response, jsonify, render_template, request, stream_with_conte
 
 from .app import app
 #from .chat_api import call_chat
-from .chat_langchain import call_chat
+#from .chat_langchain import call_chat
+#from .chat_langchain_homework_chroma import call_chat
+from .chat_langchain_homework_pinecone import call_chat
 
 demo_name = "RAG Chatbot"
 

@@ -22,7 +22,7 @@ chain = final_prompt | chat_model
 
 result = chain.invoke(dict(
     input_language="English", 
-    output_language="French", 
+    output_language="Chinese", 
     text="I love programming.",
 ))
 

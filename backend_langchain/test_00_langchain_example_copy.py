@@ -1,24 +1,28 @@
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import Chroma
-from langchain.chains import RetrievalQA
-from langchain_community.document_loaders import DirectoryLoader
+from langchain_community.document_loaders import TextLoader
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
 from langchain import hub
 import os
-from dotenv import load_dotenv
+# Get list of text files
+txt_files = [f for f in os.listdir('./text') if f.endswith('.txt')]
 
-# Load the .env file
-load_dotenv()
+# Load documents using TextLoader with proper encoding
+documents = []
+for file_name in txt_files:
+    file_path = os.path.join('./text', file_name)
+    try:
+        # Try UTF-8 first
+        loader = TextLoader(file_path, encoding='utf-8', autodetect_encoding=True)
+        docs = loader.load()
+    except UnicodeDecodeError:
+        # Fallback to latin-1 if UTF-8 fails
+        loader = TextLoader(file_path, encoding='latin-1')
+        docs = loader.load()
+    documents.extend(docs)
 
-# Get the API key from the environment variable
-api_key = os.getenv("OPENAI_API_KEY")
-
-# Loader for multiple text files
-loader = DirectoryLoader('./text', glob="*.txt")
-documents = loader.load()
-    
 # Split documents into chunks
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
 chunks = text_splitter.split_documents(documents)
@@ -33,9 +37,9 @@ retriever = vectorstore.as_retriever(search_type="similarity", search_kwargs={"k
 prompt = hub.pull("rlm/rag-prompt")
 
 # Define the LLM object using OpenAI
-llm = ChatOpenAI(model_name="gpt-3.5-turbo", temperature=0)
+llm = ChatOpenAI(model_name="gpt-4o", temperature=0)
 
-# The function to combine multiple document into one
+# The function to combine multiple documents into one
 def format_docs(docs):
     return "\n\n".join(doc.page_content for doc in docs)
 
@@ -47,6 +51,6 @@ rag_chain = (
     | StrOutputParser()
 )
 
+# Run the query
 result = rag_chain.invoke("What is attention?")
 print(result)
-

@@ -9,10 +9,34 @@ from pinecone import Pinecone
 
 from .models import db, ChatMessage
 
-pc = Pinecone()
+from dotenv import load_dotenv
+import os
+
+# Load environment variables
+load_dotenv()
+
+# Get Pinecone API key
+PINECONE_API_KEY = os.getenv('PINECONE_API_KEY')
+#PINECONE_ENVIRONMENT = os.getenv('PINECONE_ENVIRONMENT')
+pc = Pinecone(api_key=PINECONE_API_KEY)
 
 print("Connecting to Pinecone index")
 index_name = 'langchain-retrieval-augmentation-fast'
+
+# Check if index exists, if not create it
+if index_name not in pc.list_indexes().names():
+    pc.create_index(
+        name=index_name,
+        dimension=1536,  # dimension for text-embedding-ada-002
+        metric='cosine',
+        spec={
+            "serverless": {
+                "cloud": "aws",
+                "region": "us-east-1"  # Free tier supported region
+            }
+        }
+    )
+    
 index = pc.Index(index_name)
 index.describe_index_stats()
 

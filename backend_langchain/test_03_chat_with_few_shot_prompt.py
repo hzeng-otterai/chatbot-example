@@ -36,6 +36,6 @@ llm = ChatOpenAI(temperature=0)
 chain = final_prompt | llm
 
 # Invoke the chain. 
-result = chain.invoke({"input": "What's the square of a triangle?"})
+result = chain.invoke({"input": "108 + 456"})
 
 print(result.content)

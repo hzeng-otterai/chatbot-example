@@ -21,6 +21,6 @@ final_prompt = ChatPromptTemplate.from_messages([
 ])
 
 chain = final_prompt | ChatOpenAI() | CommaSeparatedListOutputParser()
-result = chain.invoke({"text": "colors"})
+result = chain.invoke({"text": "books"})
 
 print(result)

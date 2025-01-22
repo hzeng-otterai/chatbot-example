@@ -1,4 +1,12 @@
 from openai import OpenAI
+from dotenv import load_dotenv
+import os
+
+# Load the .env file
+load_dotenv()
+
+# Get the API key from the environment variable
+api_key = os.getenv("OPENAI_API_KEY")
 client = OpenAI()
 
 def call_openai():

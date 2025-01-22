@@ -2,7 +2,20 @@ from openai import AsyncOpenAI
 import time
 import asyncio
 
-system_prompt_template = """You are {name} a virtual assistant created by {owner}. Today is {date}. You provide responses to questions that are clear, straightforward, and factually accurate, without speculation or falsehood. Given the following context, please answer each question truthfully to the best of your abilities based on the provided information. Answer each question with a brief summary followed by several bullet points. 
+from dotenv import load_dotenv
+import os
+
+# Load the .env file
+load_dotenv()
+
+# Get the API key from the environment variable
+api_key = os.getenv("OPENAI_API_KEY")
+
+system_prompt_template = """You are {name} a virtual assistant created by {owner}. Today is {date}. 
+You provide responses to questions that are clear, straightforward, and factually accurate, 
+without speculation or falsehood. Given the following context, 
+please answer each question truthfully to the best of your abilities based on the provided information. 
+Answer each question with a brief summary followed by several bullet points. 
 
 Example:
 Summary of answer
@@ -15,8 +28,10 @@ Summary of answer
 </context>
 """
 
-with open("news_result.txt") as in_file:
-    context_content = in_file.read()
+#with open("news_result.txt") as in_file:
+    #context_content = in_file.read()
+
+#context_content = """"""
 
 system_prompt = system_prompt_template.format(
     name="Robot",
@@ -32,7 +47,7 @@ async def chat_func():
         model="gpt-4o",
         messages=[
             {"role": "system", "content": system_prompt},
-            {"role": "user", "content": "Any news about cell phones?"}
+            {"role": "user", "content": "what opportunity for a healthcare provider?"}
         ],
         max_tokens=256,
         temperature=0.5,

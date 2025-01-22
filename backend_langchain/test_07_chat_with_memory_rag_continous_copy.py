@@ -2,31 +2,13 @@ from langchain.chains import ConversationalRetrievalChain
 from langchain_community.vectorstores import Chroma
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain.memory import ConversationBufferMemory, ConversationSummaryMemory
-from langchain_community.document_loaders import DirectoryLoader
+from langchain_community.document_loaders import DirectoryLoader, PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.document_loaders import TextLoader
 import os
-# Get list of text files
-txt_files = [f for f in os.listdir('./text') if f.endswith('.txt')]
 
-# Load documents using TextLoader with proper encoding
-documents = []
-for file_name in txt_files:
-    file_path = os.path.join('./text', file_name)
-    try:
-        # Try UTF-8 first
-        loader = TextLoader(file_path, encoding='utf-8', autodetect_encoding=True)
-        docs = loader.load()
-    except UnicodeDecodeError:
-        # Fallback to latin-1 if UTF-8 fails
-        loader = TextLoader(file_path, encoding='latin-1')
-        docs = loader.load()
-    documents.extend(docs)
-#print("Loading documents")
-# Loading documents from local disk
-#loader = DirectoryLoader('./', glob="*.txt")
-#
-# documents = loader.load()
+loader = DirectoryLoader('./pdf', glob="*.pdf", loader_cls=PyPDFLoader)
+documents = loader.load()
 
 # Split documents into chunks
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=0)
