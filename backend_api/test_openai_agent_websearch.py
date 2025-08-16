@@ -1,4 +1,4 @@
-from agents import Agent, WebSearchTool
+from agents import Agent, WebSearchTool, Runner
 from agents.model_settings import ModelSettings
 
 # Given a search term, use web search to pull back a brief summary.
@@ -16,3 +16,6 @@ search_agent = Agent(
     tools=[WebSearchTool()],
     model_settings=ModelSettings(tool_choice="required"),
 )
+
+result = Runner.run_sync(search_agent, "What stocks are up more than 10% today?")
+print(result.final_output)
