@@ -10,6 +10,8 @@ INSTRUCTIONS = (
     "or quotes that will be useful to a financial analyst."
 )
 
+print(INSTRUCTIONS)
+
 search_agent = Agent(
     name="FinancialSearchAgent",
     instructions=INSTRUCTIONS,
